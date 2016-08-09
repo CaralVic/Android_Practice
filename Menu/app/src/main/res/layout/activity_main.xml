@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vic.menu.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:text="Hello World!"
+        android:textSize="50dp"
+        android:paddingTop="30dp"
+        android:paddingLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/editText"
+        android:text="This is a Menu Test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:paddingLeft="10dp"
+        android:paddingTop="30dp"/>
+    <Button
+        android:text="Go to Popup Activity!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="goToPopup"
+        android:layout_below="@id/editText"/>
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ActionBar</string>
+    <string name="font_10">Font 10</string>
+    <string name="font_12">Font 12</string>
+    <string name="plain_item">Plain</string>
+    <string name="font_color">Color</string>
+    <string name="red_font">Red Font</string>
+    <string name="green_font">Green Font</string>
+    <string name="blue_font">Blue Font</string>
+</resources>

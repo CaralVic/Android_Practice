@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/plain"
+        android:icon="@drawable/ic_launcher"
+        android:title="@string/plain_item"
+        app:showAsAction="ifRoom"
+        android:showAsAction="ifRoom"
+        >
+    </item
+        >
+    <item
+        app:showAsAction="ifRoom"
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/ic_launcher"
+        android:title="Size">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/font_10"
+                    android:title="@string/font_10"/>
+                <item
+                    android:id="@+id/font_12"
+                    android:title="@string/font_12"/>
+            </group>
+        </menu>
+    </item>
+    <item
+        android:title="@string/font_color"
+        app:showAsAction="ifRoom"
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/ic_launcher"
+        >
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/red_font"
+                    android:title="@string/red_font"/>
+                <item
+                    android:id="@+id/green_font"
+                    android:title="@string/green_font"/>
+                <item
+                    android:id="@+id/blue_font"
+                    android:title="@string/blue_font"/>
+            </group>
+        </menu>
+    </item>
+
+</menu>

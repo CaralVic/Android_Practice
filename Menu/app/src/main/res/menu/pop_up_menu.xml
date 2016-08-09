@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/PopUpItem1"
+        android:title="PopUpItem1"
+        android:numericShortcut="1"/>
+    <item
+        android:id="@+id/PopUpItem2"
+        android:title="PopUpItem2"
+        android:numericShortcut="2"/>
+    <item
+        android:id="@+id/PopUpItem3"
+        android:title="PopUpItem3"
+        android:numericShortcut="3"/>
+    <item
+        android:id="@+id/Cancel"
+        android:title="Cancel"
+        android:alphabeticShortcut="C"/>
+</menu>

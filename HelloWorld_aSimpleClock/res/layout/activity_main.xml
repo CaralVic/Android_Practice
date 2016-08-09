@@ -1,0 +1,60 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    android:background="#f0f0f0"
+    tools:context="com.vic.practiceoflayout.MainActivity" >
+    
+	<TextView
+       	android:id="@+id/hello_world"
+       	android:gravity="center_horizontal"
+       	android:layout_width="fill_parent"
+      	android:layout_height="wrap_content"
+       	android:textSize="40sp"
+       	android:text="@string/hello_world"
+       	android:layout_marginBottom="20dp"
+       	/>
+	<TextView
+       	android:id="@+id/time"
+       	android:gravity="center_horizontal"
+       	android:layout_width="fill_parent"
+      	android:layout_height="wrap_content"
+       	android:textSize="20sp"
+       	android:layout_marginBottom="20dp"
+       	/>
+	<TextView
+       	android:id="@+id/author"
+ 		android:gravity="center_horizontal"
+       	android:layout_width="fill_parent"
+      	android:layout_height="wrap_content"
+       	android:textSize="12sp"
+       	android:layout_marginBottom="40dp"
+       	android:text="@string/author"
+       	/>
+	
+	<TextView
+       	android:id="@+id/secrets"
+ 		android:gravity="center_horizontal"
+       	android:layout_width="fill_parent"
+       	android:paddingLeft="10sp" 
+       	android:paddingRight="10sp"
+      	android:layout_height="wrap_content"
+       	android:textSize="18sp"
+       	android:layout_marginBottom="20dp"
+       	android:text="@string/secrets"
+
+       	/>
+	  
+    <ImageView 
+        android:layout_width="fill_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/image"
+        android:background="@drawable/m"
+        android:paddingBottom="0dp"
+             
+        />
+    
+</TableLayout>
